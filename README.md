@@ -9,6 +9,25 @@ A hands-on learning repository for mastering MongoDB — from document basics to
 
 > **This repo will save you 60+ hours of scattered learning.** Everything you need to master MongoDB is right here — structured, hands-on, and in the right order. You don't need to buy a course or hunt across YouTube. Just this repo + the official MongoDB docs when you want to go deeper.
 
+### Estimated Time to Complete
+
+| Section | Hours |
+|---------|-------|
+| 01 - Fundamentals | 3–4 |
+| 02 - Setup | 1–2 |
+| 03 - CRUD Operations | 4–5 |
+| 04 - Schema Design | 3–4 |
+| 05 - Aggregation | 6–8 |
+| 06 - Indexing | 3–4 |
+| 07 - Python Integration | 4–5 |
+| 08 - Web Scraper Project | 5–6 |
+| 09 - AI & Vector Search | 4–5 |
+| 10 - Production | 3–4 |
+| Resources (interview prep, certification) | 4–5 |
+| **Total** | **~40–52 hrs** |
+
+> Self-paced — go faster or slower based on your experience. Complete beginners should expect closer to 52 hours. If you already know SQL, you can move through the early sections faster.
+
 ---
 
 ## 👋 New Here? Start Here!
