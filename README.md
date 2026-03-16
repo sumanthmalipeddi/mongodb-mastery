@@ -1,11 +1,11 @@
-# MongoDB Mastery — From Zero to Production
+# MongoDB Mastery — From Zero to Production in 60 Hours
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-7.0-47A248?logo=mongodb&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-> **This repo will save you 60+ hours of scattered learning.** Everything you need to master MongoDB is right here — structured, hands-on, and in the right order. No courses to buy. No 40-hour YouTube playlists. Just this repo + the official MongoDB docs.
+> **60 hours. That's all it takes.** This repo has everything you need to go from zero to production-ready MongoDB — structured, hands-on, and in the right order. No courses to buy. No 40-hour YouTube playlists. Just this repo + the official MongoDB docs.
 
 ---
 
@@ -45,22 +45,24 @@ By the end of this project, you will be able to:
 
 ## 📋 What's Inside
 
-| # | Section | What you'll learn | Hours |
-|---|---------|-------------------|-------|
-| 01 | [Fundamentals](01-fundamentals/) | Document model, BSON, MongoDB vs SQL | 3–4 |
-| 02 | [Setup](02-setup/) | Atlas free tier & Docker Compose setup | 1–2 |
-| 03 | [CRUD Operations](03-crud-operations/) | Insert, find, update, delete + advanced operators | 4–5 |
-| 04 | [Schema Design](04-schema-design/) | Embedding vs referencing, patterns & anti-patterns | 3–4 |
-| 05 | [Aggregation](05-aggregation/) | Pipeline framework, $lookup, $facet, real-world queries | 6–8 |
-| 06 | [Indexing](06-indexing/) | Index types, performance tuning, explain plans | 3–4 |
-| 07 | [Python Integration](07-python-integration/) | PyMongo deep dive + Mongoose basics | 4–5 |
-| 08 | [Web Scraper Project](08-web-scraper-project/) | Full project: scrape → store → analyze with MongoDB | 5–6 |
-| 09 | [AI & Vector Search](09-ai-vector-search/) | Embeddings, RAG pipelines, LangChain integration | 4–5 |
-| 10 | [Production](10-production/) | Replication, sharding, security, monitoring | 3–4 |
-| — | [Resources](resources/) | Roadmap, cheatsheets, interview prep, certification | 4–5 |
-| | | **Total** | **~40–52** |
+| # | Section | What you'll learn | Learn | Practice | Total |
+|---|---------|-------------------|-------|----------|-------|
+| 01 | [Fundamentals](01-fundamentals/) | Document model, BSON, MongoDB vs SQL | 2 | 2 | 4 |
+| 02 | [Setup](02-setup/) | Atlas free tier & Docker Compose setup | 1 | 1 | 2 |
+| 03 | [CRUD Operations](03-crud-operations/) | Insert, find, update, delete + advanced operators | 3 | 3 | 6 |
+| 04 | [Schema Design](04-schema-design/) | Embedding vs referencing, patterns & anti-patterns | 2 | 3 | 5 |
+| 05 | [Aggregation](05-aggregation/) | Pipeline framework, $lookup, $facet, real-world queries | 4 | 4 | 8 |
+| 06 | [Indexing](06-indexing/) | Index types, performance tuning, explain plans | 2 | 3 | 5 |
+| 07 | [Python Integration](07-python-integration/) | PyMongo deep dive + Mongoose basics | 3 | 3 | 6 |
+| 08 | [Web Scraper Project](08-web-scraper-project/) | Full project: scrape → store → analyze with MongoDB | 2 | 6 | 8 |
+| 09 | [AI & Vector Search](09-ai-vector-search/) | Embeddings, RAG pipelines, LangChain integration | 3 | 3 | 6 |
+| 10 | [Production](10-production/) | Replication, sharding, security, monitoring | 3 | 2 | 5 |
+| — | [Resources](resources/) | Roadmap, cheatsheets, interview prep, certification | 3 | 2 | 5 |
+| | | **Total** | **28** | **32** | **~60** |
 
-> Self-paced — go faster or slower based on your experience. Complete beginners should expect closer to 52 hours. If you already know SQL, you can move through the early sections faster.
+> **Learn** = reading docs + running scripts. **Practice** = exercises, experimenting, breaking things, and rebuilding.
+>
+> Self-paced — experienced developers may finish faster, complete beginners might take a bit longer. The key is consistency, not speed.
 
 ---
 
