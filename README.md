@@ -5,38 +5,15 @@
 ![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-A hands-on learning repository for mastering MongoDB — from document basics to production deployments and AI-powered vector search. Every folder is a self-contained lesson with real, runnable code and detailed explanations.
-
-> **This repo will save you 60+ hours of scattered learning.** Everything you need to master MongoDB is right here — structured, hands-on, and in the right order. You don't need to buy a course or hunt across YouTube. Just this repo + the official MongoDB docs when you want to go deeper.
-
-### Estimated Time to Complete
-
-| Section | Hours |
-|---------|-------|
-| 01 - Fundamentals | 3–4 |
-| 02 - Setup | 1–2 |
-| 03 - CRUD Operations | 4–5 |
-| 04 - Schema Design | 3–4 |
-| 05 - Aggregation | 6–8 |
-| 06 - Indexing | 3–4 |
-| 07 - Python Integration | 4–5 |
-| 08 - Web Scraper Project | 5–6 |
-| 09 - AI & Vector Search | 4–5 |
-| 10 - Production | 3–4 |
-| Resources (interview prep, certification) | 4–5 |
-| **Total** | **~40–52 hrs** |
-
-> Self-paced — go faster or slower based on your experience. Complete beginners should expect closer to 52 hours. If you already know SQL, you can move through the early sections faster.
+> **This repo will save you 60+ hours of scattered learning.** Everything you need to master MongoDB is right here — structured, hands-on, and in the right order. No courses to buy. No 40-hour YouTube playlists. Just this repo + the official MongoDB docs.
 
 ---
 
 ## 👋 New Here? Start Here!
 
-If this is your first time with this project, here's everything you need to know:
+**MongoDB** is a NoSQL database that stores data as flexible JSON-like documents instead of rigid tables and rows. It's used by companies like Google, eBay, and Adobe — and it's one of the most in-demand database skills in the industry.
 
-### What is this project?
-
-This is a **self-paced MongoDB course** organized into numbered folders (`01` through `10`). Each folder teaches one topic with:
+This repo is a **self-paced MongoDB course** organized into numbered folders (`01` through `10`). Each folder teaches one topic with:
 - A **README.md** explaining the concept in plain English
 - **Python scripts** you can run to see MongoDB in action
 - **Exercises** to practice what you learned
@@ -57,101 +34,116 @@ By the end of this project, you will be able to:
 
 ### How to use this repo
 
-1. **Follow the folders in order** — `01-fundamentals` → `02-setup` → `03-crud` → and so on
-2. **Read the README.md first** in each folder — it explains the "why" before the "how"
-3. **Run the Python scripts** — every `.py` file is standalone, just run `python filename.py`
-4. **Try the exercises** — each section has practice problems with solutions included
-5. **Build the scraper project** (folder `08`) — this ties everything together into a real app
+1. **Set up your environment first** (see Quick Start below)
+2. **Follow the folders in order** — `01` → `02` → `03` → and so on
+3. **Read the README.md first** in each folder — it explains the "why" before the "how"
+4. **Run the Python scripts** — every `.py` file is standalone, just run `python filename.py`
+5. **Try the exercises** — each section has practice problems with solutions included
+6. **Build the scraper project** (folder `08`) — this ties everything together into a real app
 
-### Folder Guide
+---
 
-```
-📁 01-fundamentals/     ← Start here! What is MongoDB and why use it?
-📁 02-setup/            ← Get MongoDB running (cloud or local Docker)
-📁 03-crud-operations/  ← Learn to insert, find, update, delete data
-📁 04-schema-design/    ← How to structure your data properly
-📁 05-aggregation/      ← Advanced queries and data analysis
-📁 06-indexing/         ← Make your queries fast
-📁 07-python-integration/ ← Connect MongoDB to Python apps
-📁 08-web-scraper-project/ ← 🌟 Build a real project!
-📁 09-ai-vector-search/ ← Use MongoDB with AI/ML
-📁 10-production/       ← Prepare for real-world deployments
-📁 resources/           ← Cheatsheets, interview prep, certification guide
-```
+## 📋 What's Inside
 
-### What do I need before starting?
+| # | Section | What you'll learn | Hours |
+|---|---------|-------------------|-------|
+| 01 | [Fundamentals](01-fundamentals/) | Document model, BSON, MongoDB vs SQL | 3–4 |
+| 02 | [Setup](02-setup/) | Atlas free tier & Docker Compose setup | 1–2 |
+| 03 | [CRUD Operations](03-crud-operations/) | Insert, find, update, delete + advanced operators | 4–5 |
+| 04 | [Schema Design](04-schema-design/) | Embedding vs referencing, patterns & anti-patterns | 3–4 |
+| 05 | [Aggregation](05-aggregation/) | Pipeline framework, $lookup, $facet, real-world queries | 6–8 |
+| 06 | [Indexing](06-indexing/) | Index types, performance tuning, explain plans | 3–4 |
+| 07 | [Python Integration](07-python-integration/) | PyMongo deep dive + Mongoose basics | 4–5 |
+| 08 | [Web Scraper Project](08-web-scraper-project/) | Full project: scrape → store → analyze with MongoDB | 5–6 |
+| 09 | [AI & Vector Search](09-ai-vector-search/) | Embeddings, RAG pipelines, LangChain integration | 4–5 |
+| 10 | [Production](10-production/) | Replication, sharding, security, monitoring | 3–4 |
+| — | [Resources](resources/) | Roadmap, cheatsheets, interview prep, certification | 4–5 |
+| | | **Total** | **~40–52** |
+
+> Self-paced — go faster or slower based on your experience. Complete beginners should expect closer to 52 hours. If you already know SQL, you can move through the early sections faster.
+
+---
+
+## 📦 What You Need Before Starting
 
 | Requirement | Why | How to get it |
 |------------|-----|---------------|
 | **Python 3.10+** | All code examples use Python | [python.org/downloads](https://www.python.org/downloads/) |
 | **pip** | Installs Python packages | Comes with Python |
-| **A text editor** | To read and edit code | VS Code recommended |
-| **MongoDB** | The database we're learning! | See folder `02-setup/` — choose Atlas (cloud) or Docker (local) |
-| **Basic Python knowledge** | Variables, loops, functions | You don't need to be an expert |
+| **A text editor** | To read and edit code | [VS Code](https://code.visualstudio.com/) recommended |
+| **MongoDB** | The database we're learning! | See Quick Start below — choose Atlas (cloud) or Docker (local) |
+| **Node.js 18+** | Only needed for one file | [nodejs.org](https://nodejs.org/) (only for `07-python-integration/mongoose_basics.js`) |
 
-> **No MongoDB experience needed!** Folder `01` starts from absolute zero.
+> **No MongoDB experience needed!** Folder `01` starts from absolute zero. Basic Python knowledge (variables, loops, functions) is enough.
 
----
+### Verify your setup
 
-## 📋 Table of Contents
+```bash
+python --version    # Should show Python 3.10 or higher
+pip --version       # Should show pip is installed
+docker --version    # Only if using Docker option
+```
 
-| # | Section | Description |
-|---|---------|-------------|
-| 01 | [Fundamentals](01-fundamentals/) | Document model, BSON, MongoDB vs SQL |
-| 02 | [Setup](02-setup/) | Atlas free tier & Docker Compose setup |
-| 03 | [CRUD Operations](03-crud-operations/) | Insert, find, update, delete + advanced operators |
-| 04 | [Schema Design](04-schema-design/) | Embedding vs referencing, patterns & anti-patterns |
-| 05 | [Aggregation](05-aggregation/) | Pipeline framework, $lookup, $facet, real-world queries |
-| 06 | [Indexing](06-indexing/) | Index types, performance tuning, explain plans |
-| 07 | [Python Integration](07-python-integration/) | PyMongo deep dive + Mongoose basics |
-| 08 | [Web Scraper Project](08-web-scraper-project/) | Full project: scrape → store → analyze with MongoDB |
-| 09 | [AI & Vector Search](09-ai-vector-search/) | Embeddings, RAG pipelines, LangChain integration |
-| 10 | [Production](10-production/) | Replication, sharding, security, monitoring |
-| — | [Resources](resources/) | Roadmap, cheatsheets, interview prep, certification |
+> **Tip:** If you have multiple Python versions, use `python3` instead of `python` in all commands.
 
 ---
 
 ## 🚀 Quick Start
 
-### Option A: MongoDB Atlas (Cloud — 5 minutes)
+### Step 1: Get the repo
+
+```bash
+# If using the template
+# Click "Use this template" on GitHub, then clone your copy
+
+# Or clone directly
+git clone https://github.com/sumanthmalipeddi/mongodb-mastery.git
+cd mongodb-mastery
+```
+
+### Step 2: Install Python packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: Set up MongoDB (pick one)
+
+**Option A: MongoDB Atlas (Cloud — free, recommended for beginners)**
 
 1. Create a free account at [mongodb.com/atlas](https://www.mongodb.com/atlas)
 2. Deploy a free M0 cluster
-3. Create a database user and whitelist your IP
-4. Copy your connection string into `.env`
+3. Create a database user and whitelist your IP (see [02-setup/atlas-setup.md](02-setup/atlas-setup.md) for detailed steps)
+4. Copy your connection string
 
 ```bash
 cp .env.example .env
-# Edit .env with your Atlas connection string
+# Open .env and paste your Atlas connection string
 ```
 
-### Option B: Docker (Local — 1 command)
+**Option B: Docker (Local — if you prefer running locally)**
 
 ```bash
+cp .env.example .env
+# Edit .env with your preferred credentials, then:
 cd 02-setup && docker compose up -d
 ```
 
 This starts MongoDB on `localhost:27017` and Mongo Express GUI on `localhost:8081`.
 
-### Then install dependencies and test:
+### Step 4: Test your connection
 
 ```bash
-# Install all dependencies in one command
-pip install -r requirements.txt
-
-# Copy the example env file and add your connection string
-cp .env.example .env
-# Edit .env with your MongoDB URI
-
-# Test your connection
 python 02-setup/connect-test.py
 ```
 
+If you see a success message, you're ready! Head to [01-fundamentals/](01-fundamentals/) and start learning.
+
 ---
 
-## 🗺️ Learning Roadmap
+## 🗺️ Learning Roadmap (12 Weeks)
 
-Follow the folders in order for a structured 12-week learning path:
+A suggested schedule if you're studying part-time (~4–5 hours/week):
 
 ```
 Week 1–2   →  01-fundamentals/ + 02-setup/       (Concepts + Environment)
@@ -166,15 +158,13 @@ Week 11    →  10-production/                       (Deploy & operate)
 Week 12    →  resources/                           (Review + certification prep)
 ```
 
-See [resources/learning-roadmap.md](resources/learning-roadmap.md) for the detailed week-by-week plan.
+> Full-time learner? You can finish in 2–3 weeks. See [resources/learning-roadmap.md](resources/learning-roadmap.md) for the detailed week-by-week plan with daily goals.
 
 ---
 
-## 🛠️ Projects
+## 🛠️ Featured Project: Web Scraper + MongoDB Analytics
 
-### Web Scraper + MongoDB Analytics
-
-The flagship project in [08-web-scraper-project/](08-web-scraper-project/) demonstrates a complete data pipeline:
+The flagship project in [08-web-scraper-project/](08-web-scraper-project/) ties everything together into a real data pipeline:
 
 1. **Scrape** all 100 quotes from [quotes.toscrape.com](http://quotes.toscrape.com) across 10 pages
 2. **Store** structured data in MongoDB with proper schema
@@ -182,31 +172,9 @@ The flagship project in [08-web-scraper-project/](08-web-scraper-project/) demon
 4. **Analyze** data with 10 different MongoDB query patterns
 5. **Advanced version** adds pagination handling, rate limiting, and logging
 
-Credit: [quotes.toscrape.com](http://quotes.toscrape.com) is a sandbox site built for scraping practice.
+This is the project you'll want to show in your portfolio. It demonstrates CRUD, indexing, aggregation, and text search — all in one script.
 
----
-
-## 📦 Prerequisites
-
-- **Python 3.10+** (required for AI/vector search section)
-- **pip** (Python package manager)
-- **MongoDB Atlas account** (free) OR **Docker** installed locally
-- **Node.js 18+** (only for `07-python-integration/mongoose_basics.js`)
-
-### Install Python Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Verify your Python version
-
-```bash
-python --version
-# Should show Python 3.10 or higher
-```
-
-> **Tip:** If you have multiple Python versions, use `python3` instead of `python` in all commands.
+> Credit: [quotes.toscrape.com](http://quotes.toscrape.com) is a sandbox site built for scraping practice.
 
 ---
 
