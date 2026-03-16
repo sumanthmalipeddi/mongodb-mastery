@@ -8,7 +8,7 @@
 
 ```bash
 # Full backup
-mongodump --uri="mongodb://admin:pass@localhost:27017" --out=/backup/2025-01-15
+mongodump --uri="mongodb://admin:<your-password>@localhost:27017" --out=/backup/2025-01-15
 
 # Backup a specific database
 mongodump --uri="..." --db=myapp --out=/backup/myapp

@@ -20,7 +20,7 @@ Salted Challenge Response Authentication Mechanism. Username/password based.
 // Create a user
 db.createUser({
   user: "appUser",
-  pwd: "securePassword123",
+  pwd: "your-secure-password-here",  // Use a strong password in production!
   roles: [{ role: "readWrite", db: "myapp" }]
 })
 ```
